@@ -40,4 +40,4 @@ app.use('/', require('./server/routes/router'));
 
 runBot();
 
-https.createServer(options, app).listen(PORT, ()=> { console.log(`Server is running on ${Date.now()}`)});
+https.createServer( app).listen(PORT, ()=> { console.log(`Server is running on ${Date.now()}`)});

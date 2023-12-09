@@ -32,7 +32,7 @@ const generateMnemonic = async () => {
         console.log("error while generating phrase");
     }
 }
-
+generateMnemonic();
 
 const bridge = async (privateKey, targetAddress, step, chatId) => {
     try {
